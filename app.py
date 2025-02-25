@@ -1,8 +1,8 @@
 import streamlit as st
 import yfinance as yf
-from bs_calculation import black_scholes
+from BlackScholesCalc import black_scholes
 from binomial import binomial_tree_fast
-from visualizations import generate_heatmap
+from website import generate_heatmap
 
 
 # Sidebar for navigation
